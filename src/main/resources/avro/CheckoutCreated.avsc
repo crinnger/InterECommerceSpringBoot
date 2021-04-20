@@ -1,0 +1,11 @@
+1{
+	"type": "record",
+	"name": "CheckoutCreatedEvent",
+	"namespace": "br.com.crinnger.interbootcamp.ecommerce.checkout.event",
+	"fields": [
+		{	
+			"name": "checkoutCode",
+			"type": ["string","null"]
+		}
+	]
+}
