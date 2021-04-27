@@ -11,7 +11,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class CheckoutDto implements Serializable{	
+public class CheckoutRequest implements Serializable{
 	private String firstName;
 	private String lastName;
 	private String userName;

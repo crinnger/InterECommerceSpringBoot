@@ -1,6 +1,6 @@
 {
 	"type": "record",
-	"name": "CheckoutCreatedEvent",
+	"name": "PaymentCreatedEvent",
 	"namespace": "br.com.crinnger.interbootcamp.ecommerce.checkout.event",
 	"fields": [
 		{	
@@ -9,8 +9,13 @@
             "avro.java.string": "String"
 		},
 		{
-        	"name": "status",
+        	"name": "checkoutStatus",
         	"type": "string"
+        },
+        {
+        	"name": "paymentCode",
+        	"type": "string",
+            "avro.java.string": "String"
         }
 	]
 }
